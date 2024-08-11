@@ -1,0 +1,121 @@
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 30%);
+    border: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#display{
+    width: 100%;
+    padding: 5px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(150, 100%, 50%);
+    color: white;
+    z-index: 11;
+    font-size: 3rem;
+    height: 5rem;
+    width: 23.7rem;
+    padding-left: 1rem;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: hsl(0, 0%, 90%);
+    height: 100vh;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 400px;
+    overflow: hidden;
+}
+button:hover{
+
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+
+    background-color: hsl(0, 0%, 50%);
+} .color1 { background-color: hsl(0, 100%, 50%); }
+.color1:hover { background-color: hsl(0, 100%, 60%); }
+.color1:active { background-color: hsl(0, 100%, 70%); }
+
+
+.color { background-color: hsl(270, 100%, 50%); }
+.color:hover { background-color: hsl(270, 100%, 60%); }
+.color:active { background-color: hsl(270, 100%, 70%); }
+
+.color2 { background-color: hsl(30, 100%, 50%); }
+.color2:hover { background-color: hsl(30, 100%, 60%); }
+.color2:active { background-color: hsl(30, 100%, 70%); }
+
+.color3 { background-color: hsl(60, 100%, 50%); }
+.color3:hover { background-color: hsl(60, 100%, 60%); }
+.color3:active { background-color: hsl(60, 100%, 70%); }
+
+.color4 { background-color: hsl(90, 100%, 50%); }
+.color4:hover { background-color: hsl(90, 100%, 60%); }
+.color4:active { background-color: hsl(90, 100%, 70%); }
+
+.color5 { background-color: hsl(120, 100%, 50%); }
+.color5:hover { background-color: hsl(120, 100%, 60%); }
+.color5:active { background-color: hsl(120, 100%, 70%); }
+
+.color6 { background-color: hsl(150, 100%, 50%); }
+.color6:hover { background-color: hsl(150, 100%, 60%); }
+.color6:active { background-color: hsl(150, 100%, 70%); }
+
+
+.color7 { background-color: hsl(270, 100%, 50%); }
+.color7:hover { background-color: hsl(270, 100%, 60%); }
+.color7:active { background-color: hsl(270, 100%, 70%); }
+
+.color8 { background-color: hsl(210, 100%, 50%); }
+.color8:hover { background-color: hsl(210, 100%, 60%); }
+.color8:active { background-color: hsl(210, 100%, 70%); }
+
+.color9 { background-color: hsl(240, 100%, 50%); }
+.color9:hover { background-color: hsl(240, 100%, 60%); }
+.color9:active { background-color: hsl(240, 100%, 70%); }
+
+.color10 { background-color: hsl(270, 100%, 50%); }
+.color10:hover { background-color: hsl(270, 100%, 60%); }
+.color10:active { background-color: hsl(270, 100%, 70%); }
+
+.color11 { background-color: hsl(300, 100%, 50%); }
+.color11:hover { background-color: hsl(300, 100%, 60%); }
+.color11:active { background-color: hsl(300, 100%, 70%); }
+
+.color12 { background-color: hsl(330, 100%, 50%); }
+.color12:hover { background-color: hsl(330, 100%, 60%); }
+.color12:active { background-color: hsl(330, 100%, 70%); }
+
+.color13 { background-color: hsl(0, 100%, 50%); } /* Red */
+.color13:hover { background-color: hsl(0, 100%, 60%); }
+.color13:active { background-color: hsl(0, 100%, 70%); }
+
+.color14 { background-color: hsl(0, 100%, 50%); } /* Red */
+.color14:hover { background-color: hsl(0, 100%, 60%); }
+.color14:active { background-color: hsl(0, 100%, 70%); }
+
+.color15 { background-color: hsl(120, 50%, 50%); } /* Light Green */
+.color15:hover { background-color: hsl(120, 50%, 60%); }
+.color15:active { background-color: hsl(120, 50%, 70%); }
+
+.color16 { background-color: hsl(240, 50%, 50%); } /* Light Blue */
+.color16:hover { background-color: hsl(240, 50%, 60%); }
+.color16:active { background-color: hsl(240, 50%, 70%); }
